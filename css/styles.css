@@ -10,6 +10,33 @@
   --acent-color: #188ce8;
   --text-logo: #000000;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
 
 body {
   background: var(--first-background-color);
@@ -25,11 +52,24 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+}
+
 /* ----------------------HEADER------------------- */
 
 .header {
   background-color: var(--first-background-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -99,6 +139,11 @@ body {
   background-color: var(--second-background-color);
 }
 
+.hero-content {
+  padding: 200px 452px 280px;
+  outline: 2px solid red;
+}
+
 .hero-pre-title {
   font-weight: 900;
   font-size: 44px;
@@ -107,6 +152,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
+  margin-bottom: 40px;
 }
 
 .hero-btn {
@@ -120,10 +166,13 @@ body {
   letter-spacing: 0.06em;
   color: var(--third-text-color);
 }
+
 .hero-btn {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 210px;
 }
 
 .hero-btn:hover,
@@ -146,6 +195,7 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  max-width: 360px;
 }
 
 /* --------------------WORK--------------- */
