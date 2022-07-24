@@ -59,7 +59,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /*--outline: 2px solid red;--*/
 }
 
 /* ----------------------HEADER------------------- */
@@ -136,6 +136,7 @@ body {
 .header .header-tel:hover,
 .header-tel:focus {
   color: var(--alternativ-color);
+  padding-right: ;
 }
 
 .header-mail {
@@ -285,6 +286,7 @@ body {
   width: calc(100% - 90px / 4);
   padding-bottom: 30px;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -319,6 +321,9 @@ body {
 
 /* ----------PORTFOLIO-BTN----------- */
 
+.btn-container {
+}
+
 .btn-list {
   font-family: "Roboto";
   font-style: normal;
@@ -327,10 +332,19 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
+  padding-top: 94px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 
 .btn-item {
   background-color: var(--third-background-color);
+  display: inline-block;
+  padding: 6px 22px;
+  border: 0px;
+  border-radius: 4px;
 }
 
 .btn-item:hover,
@@ -345,6 +359,19 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
+  margin: 20px 24px 4px;
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.project-item {
+  padding-bottom: 94px;
+  flex-basis: calc((100% / 2 * 30px) / 3);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .project-after-title {
@@ -353,6 +380,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  margin: 4px 24px 20px;
 }
 
 /* ----------FOOTER------------- */
@@ -360,7 +388,6 @@ body {
 .footer {
   padding-top: 60px;
   background: var(--second-background-color);
-  outline: 2px solid red;
 }
 
 .logo-allocation {
