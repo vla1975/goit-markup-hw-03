@@ -53,13 +53,12 @@ body {
 }
 
 .container {
-  /*width: 100%;*/
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 
 /* ----------------------HEADER------------------- */
@@ -271,6 +270,9 @@ body {
 .work-item {
   width: calc(100% - 90px / 3);
 }
+.work-img {
+  display: block;
+}
 
 /* --------------TEAM------------- */
 .team {
@@ -301,6 +303,10 @@ body {
   margin-top: 0px;
 }
 
+.team-img {
+  display: block;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -318,12 +324,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
+.team-block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /* ----------PORTFOLIO-BTN----------- */
 
 .project-container {
   margin-top: 94px;
-  margin-bottom: 50px;
+  margin-bottom: 94px;
 }
 
 .btn-list {
