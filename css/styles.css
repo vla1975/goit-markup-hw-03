@@ -102,8 +102,6 @@ body {
   display: flex;
   align-items: center;
   gap: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-link:not(:lost-child) {
@@ -115,6 +113,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .current {
@@ -331,9 +332,9 @@ body {
 
 /* ----------PORTFOLIO-BTN----------- */
 
-.project-container {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.project {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .btn-list {
@@ -370,21 +371,28 @@ body {
   gap: 30px;
 }
 
+.project-img {
+  display: block;
+}
+
 .project-contant {
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
   color: var(--first-text-color);
 }
 
 .project-item {
   width: calc(100% - 60px) / 3;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 
 .project-after-title {
@@ -417,7 +425,6 @@ body {
 }
 
 .footer-adress {
-  padding-bottom: 60px;
   margin-top: 20px;
 }
 
